@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Rajdhani:wght@700&display=swap");
+body {
+    background-color: black;
+}
+
+.Menu {
+    height: 15%;
+    width: 100%;
+    background-color: #39d487;
+    position: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 0;
+}
+
+.MenuEsquerdo {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Rajdhani", sans-serif;
+}
+
+.MenuMeio {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.LogoV {
+    width: 15%;
+}
+
+select {
+    background-color: #39d487;
+    border: 0;
+}
+
+.MenuDireita {
+    padding: auto;
+}
+
+.Resto {
+    margin-top: 10%;
+}
+
+#Camp div{
+    display: none;
+}
+
+#Camp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    padding: auto;
+}
+
+h1 {
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    text-align: center;
+    cursor: context-menu;
+}
+
+.Noticias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: auto;
+}
+
+.BoxNoticia {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #39d487;
+    border-radius: 5px;
+}
+
+.TituloNoticia {
+    border: 1px solid #39d487;
+}
+
+h3 {
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    text-align: center;
+    cursor: context-menu;
+}
+
+.ImgNoticia {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.ResumoNoticia {
+    border: 1px solid #39d487;
+}
+
+h4 {
+    font-family: "Rajdhani", sans-serif;
+    text-align: center;
+    cursor: context-menu;
+    color: darkgray;
+}
